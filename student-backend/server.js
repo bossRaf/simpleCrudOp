@@ -21,7 +21,7 @@ db.connect(err => {
 
 // CRUD Operations
 
-// CREATE student
+// CREATE 
 app.post("/students", (req, res) => {
     const { name, course, subject } = req.body;
 
